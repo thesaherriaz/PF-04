@@ -13,7 +13,7 @@ int main()
     cout<<"Enter the number of all workers: ";
     cin>>workers;
     time_calculator();
-    if(needed_hours>=used_hours)
+    if(needed_hours<=used_hours)
     {
         cout<<"Yes! "<<hours_left <<" hours left";
     }
