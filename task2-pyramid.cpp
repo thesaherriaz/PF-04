@@ -5,9 +5,9 @@ void centimeter();
 void kilometer();
 void meter();
 void milimeter();
-int length, width, height;
+float length, width, height;
 string units, milimeters, centimeters, meters, kilometers;
-int volume_m,volume_cm,volume_mm,volume_km;
+float volume_m,volume_cm,volume_mm,volume_km;
 
 int main()
 {
